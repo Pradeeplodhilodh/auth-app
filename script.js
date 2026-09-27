@@ -46,24 +46,24 @@ const ICONS = {
 
 /* ================= DATA ================= */
 const STATS = [
-  { num: 5, suffix: '+', label: 'Projects Built' },
+  { num: 4, suffix: '+', label: 'Projects Built' },
   { num: 10, suffix: '+', label: 'Technologies' },
-  { num: 3,  suffix: '+', label: 'Years Learning' },
-  { num: 5,  suffix: '+', label: 'Certifications' }
+  { num: 2.5,  suffix: '+', label: 'Years Learning' },
+  { num: 0,  suffix: '+', label: 'Certifications' }
 ];
 
 const SERVICES = [
-  { icon: '💻', title: 'Full-Stack Web Development', desc: 'End-to-end web apps with clean UI, secure APIs and scalable databases — from design to deployment.', tags: ['React', 'Node.js', 'FastAPI', 'MongoDB', 'PostgreSQL'] },
-  { icon: '🔐', title: 'Cyber Security Fundamentals', desc: 'Security-first mindset: input validation, auth flows, OWASP practices and secure coding habits.', tags: ['OWASP', 'Auth', 'Encryption', 'Network Basics'] },
-  { icon: '🤖', title: 'AI & Automation', desc: 'Practical AI integrations and automation scripts that save time and unlock smarter workflows.', tags: ['Python', 'OpenAI', 'Automation', 'Data'] },
-  { icon: '🎨', title: 'Responsive UI / UX', desc: 'Pixel-conscious interfaces that feel great on every device — fast, accessible and modern.', tags: ['HTML5', 'CSS3', 'Animation', 'A11y'] }
+  { icon: '💻', title: 'Full-Stack Web Development', desc: 'End-to-end web apps with clean UI, secure APIs and scalable databases — from design to deployment.', tags: ['React', 'Node.js', 'FastAPI', 'PostgreSQL'] },
+  { icon: '🔐', title: 'Cyber Security Fundamentals', desc: 'Security-first mindset: input validation, auth flows, OWASP practices and secure coding habits.', tags: [ 'Auth', 'Encryption', 'Network Basics'] },
+  { icon: '🤖', title: 'AI & Automation', desc: 'Practical AI integrations and automation scripts that save time and unlock smarter workflows.', tags: ['Python', 'Automation', 'Data'] },
+  { icon: '🎨', title: 'Responsive UI / UX', desc: 'Pixel-conscious interfaces that feel great on every device — fast, accessible and modern.', tags: ['HTML5', 'CSS3', 'Animation'] }
 ];
 
 const PROJECTS = [
-  { title: 'SecureAuth Vault', desc: 'A password manager demo with AES encryption, JWT authentication and a clean React dashboard.', tech: ['React', 'FastAPI', 'PostgreSQL', 'AES'], status: 'live', statusLabel: 'Live', live: '#', code: 'https://github.com/Pradeeplodhilodh', image: 'asset/project/yugo.webp.jpeg' },
-  { title: 'AI Study Buddy', desc: 'An AI-powered note summarizer and Q&A assistant built with Python, FastAPI and OpenAI APIs.', tech: ['Python', 'FastAPI', 'OpenAI', 'React'], status: 'live', statusLabel: 'Live', live: '#', code: 'https://github.com/Pradeeplodhilodh', image: 'https://picsum.photos/seed/aistudy/800/600' },
-  { title: 'Portfolio Website', desc: 'This very site — a fully responsive, theme-switching portfolio built with vanilla HTML, CSS and JS.', tech: ['HTML', 'CSS', 'JavaScript'], status: 'live', statusLabel: 'Live', live: '#', code: 'https://github.com/Pradeeplodhilodh', image: 'https://picsum.photos/seed/portfolio/800/600' },
-  { title: 'Campus Connect', desc: 'A college community app for events, notes sharing and student chats with real-time updates.', tech: ['React', 'Node.js', 'Socket.io', 'MongoDB'], status: 'wip', statusLabel: 'In Progress', live: '', code: 'https://github.com/Pradeeplodhilodh', image: 'https://picsum.photos/seed/campus/800/600' }
+  { title: 'YUGO', desc: 'A unified mobility platform connecting rural and urban communities with affordable, accessible, and convenient transportation solutions.', tech: ['React', 'FastAPI', 'PostgreSQL', 'AES'], status: 'under progress', statusLabel: 'under progress', live: '#', code: 'https://github.com/Pradeeplodhilodh', image: 'asset/project/yugo.webp.jpeg' },
+  { title: 'Smart City Waste Tracker', desc:'A smart platform for tracking waste collection, reporting garbage issues, and connecting citizens with efficient waste management services for a cleaner city.', tech: ['Python', 'FastAPI',  'React'], status: 'under progress', statusLabel: 'under progress', live: '#', code: 'https://github.com/Pradeeplodhilodh', image: 'asset/project/smartcity.webp.jpeg' },
+  { title: 'NeuroCare', desc: 'A modern healthcare platform connecting patients with neurologists through consultations, appointments, treatment support, and wellness resources.', tech: ['HTML', 'CSS', 'JavaScript'], status: 'under progress', statusLabel: 'under progress', live: '#', code: 'https://github.com/Pradeeplodhilodh', image: 'asset/project/neurocare.webp.jpeg' },
+  { title: 'Campus Connect', desc: 'A smart platform that connects students, teachers, and industry experts, enabling knowledge sharing, mentorship, career guidance, and collaboration beyond the classroom.', tech: ['React', 'Node.js', 'Socket.io', 'MongoDB'], status: 'under progress', statusLabel: 'under progress', live: '', code: 'https://github.com/Pradeeplodhilodh', image: 'asset/project/campusconnect.webp.jpeg' }
 ];
 
 const EXPERIENCE = [
@@ -80,7 +80,7 @@ const EXPERIENCE = [
     tags: ['HTML', 'CSS', 'JavaScript', 'SEO', 'Netlify']
   },
   {
-    title: 'Cyber Security Learner & CTF Player', org: 'TryHackMe · HackTheBox', date: '202# — Present',
+    title: 'Cyber Security Learner & CTF Player', org: 'TryH#ckMe · HackTheBox', date: '202# — Present',
     desc: 'Practicing offensive and defensive security through labs, CTFs and hands-on challenges.',
     highlights: ['Completed 40+ rooms on TryHackMe', 'Hands-on with Linux, networking and web exploitation', 'Studying OWASP Top 10 and secure coding practices'],
     tags: ['Linux', 'Networking', 'OWASP', 'Burp Suite']
