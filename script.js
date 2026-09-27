@@ -95,7 +95,7 @@ const EDUCATION = [
     tags: ['CSE', 'DSA', 'Cyber Security', 'AI']
   },
   {
-    title: 'Physics, Chemistry, Mathematics', org: 'Jnv India', date: '2017 — 2023',
+    title: 'Physics, Mathematics', org: 'Jnv India', date: '2017 — 2023',
     desc: 'Physics, Chemistry, Mathematics.',
     highlights: ['Built first websites and small automation scripts', 'Discovered a love for problem solving through code'],
     tags: ['PCM']
